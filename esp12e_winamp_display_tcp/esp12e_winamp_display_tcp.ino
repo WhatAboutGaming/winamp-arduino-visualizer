@@ -117,11 +117,11 @@ U8G2_SH1106_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/U8X8_PIN_NONE);
 #define OFFSET_604 604                                                 // +1
 #define OFFSET_SPECTRUM_ANALYZER_END 605                               // +1
 
-const char* wifiSsid = "DLinkle";
-const char* wifiPass = "1155810860";
+const char* wifiSsid = "WIFISSID";
+const char* wifiPass = "WIFIPASS";
 
 // Target TCP Server details
-const char* tcpServerIp = "192.168.15.7";  // Replace with your target IP
+const char* tcpServerIp = "192.168.1.1";  // Replace with your target IP
 const uint16_t tcpServerPort = 1337;       // Replace with your target port
 
 uint32_t tcpMessageByteCounter = 0UL;
